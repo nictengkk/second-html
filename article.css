@@ -1,0 +1,51 @@
+.normal {
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+.special {
+  border-left: 5px solid #bdc3c7;
+}
+
+.date {
+  font-weight: 400;
+  color: #3498db;
+  width: 50%;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  width: 60%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* two ways to write a program
+to see what functions there are out there to rewrite the program 
+wrote the functions that i want first - determine logic flows - then find online libraries to see if it can be integrated. */
+/* 
+modelling - look at properties and functions.
+for e.g to model a car.
+properties = wheels, tires, seats etc
+methods = forward, brake, reverse, turn left, turn right */
